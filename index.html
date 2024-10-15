@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="course-main.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+
+    <section class="container">
+        <div class="calendar">
+            <h2>Calendar</h2>
+            <div class="grid" id="calendar-grid">
+                <div class="day" tabindex="0" aria-label="Day 1">1</div>
+                <div class="day" tabindex="0" aria-label="Day 2">2</div>
+                <div class="day" tabindex="0" aria-label="Day 3">3</div>
+                <div class="day" tabindex="0" aria-label="Day 4">4</div>
+                <div class="day" tabindex="0" aria-label="Day 5">5</div>
+                <div class="day" tabindex="0" aria-label="Day 6">6</div>
+                <div class="day" tabindex="0" aria-label="Day 7">7</div>
+                <div class="day" tabindex="0" aria-label="Day 8">8</div>
+                <div class="day" tabindex="0" aria-label="Day 9">9</div>
+                <div class="day" tabindex="0" aria-label="Day 10">10</div>
+                <div class="day" tabindex="0" aria-label="Day 11">11</div>
+                <div class="day" tabindex="0" aria-label="Day 12">12</div>
+                <div class="day" tabindex="0" aria-label="Day 13">13</div>
+                <div class="day" tabindex="0" aria-label="Day 14">14</div>
+                <div class="day" tabindex="0" aria-label="Day 15">15</div>
+                <div class="day" tabindex="0" aria-label="Day 16">16</div>
+                <div class="day" tabindex="0" aria-label="Day 17">17</div>
+                <div class="day" tabindex="0" aria-label="Day 18">18</div>
+                <div class="day" tabindex="0" aria-label="Day 19">19</div>
+                <div class="day" tabindex="0" aria-label="Day 20">20</div>
+                <div class="day" tabindex="0" aria-label="Day 21">21</div>
+                <div class="day" tabindex="0" aria-label="Day 22">22</div>
+                <div class="day" tabindex="0" aria-label="Day 23">23</div>
+                <div class="day" tabindex="0" aria-label="Day 24">24</div>
+                <div class="day" tabindex="0" aria-label="Day 25">25</div>
+                <div class="day" tabindex="0" aria-label="Day 26">26</div>
+                <div class="day" tabindex="0" aria-label="Day 27">27</div>
+                <div class="day" tabindex="0" aria-label="Day 28">28</div>
+                <div class="day" tabindex="0" aria-label="Day 29">29</div>
+                <div class="day" tabindex="0" aria-label="Day 30">30</div>
+                <div class="day" tabindex="0" aria-label="Day 31">31</div>
+            </div>
+            <div id="input-container">
+                <input type="text" id="date-input" placeholder="Click day to add event" aria-label="Event Input">
+                <button id="add-date">Add Event</button>
+            </div>
+        </div>
+        <div class="todo-list">
+            <h2>To-Do List</h2>
+            <form id="todo-form">
+                <input type="text" id="new-task" placeholder="Enter a new task">
+                <button type="submit">Add Task</button>
+            </form>
+            <ul id="todo-list">
+                <li>
+                    <input type="checkbox" id="task1">
+                    <label for="task1">Add your task here</label>
+                </li>
+            </ul>
+            
+        </div>      
+    </section>
+
+    <section class="portfolio">
+        <h2>Courses</h2>
+        <div class="course-container">
+            <a href="html-course.html" class="course-card html-bg">
+                <h3>HTML Tutorials</h3>
+                <p>HTML stands for Hyper Text Markup Language, the foundation of web development.</p>
+            </a>
+
+            <a href="css-course.html" class="course-card css-bg">
+                <h3>CSS Tutorials</h3>
+                <p>CSS is used to design and style web pages, making them visually appealing.</p>
+            </a>
+
+            <a href="php-course.html" class="course-card php-bg">
+                <h3>PHP Tutorials</h3>
+                <p>PHP is a popular server-side scripting language for web development.</p>
+            </a>
+
+            <a href="js-course.html" class="course-card js-bg">
+                <h3>JavaScript Tutorials</h3>
+                <p>JavaScript is a programming language that adds interactivity to web pages.</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 citylighxts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
